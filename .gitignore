@@ -1,0 +1,15 @@
+# Runtime state written by herdr
+*.log
+*.sock
+session.json
+release-notes.json
+.plugins.lock
+
+# DS_Store
+.DS_Store
+
+# Claude Code local state and worktrees
+.claude/
+
+# Omarchy config-refresh backups
+*.bak.*
