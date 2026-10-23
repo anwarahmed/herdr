@@ -41,6 +41,6 @@ To see what's personal, diff against the Omarchy default.
 
 ## Runtime files in this directory
 
-herdr writes its state next to the config: `*.log`, `*.sock`, `session.json`,
-`release-notes.json` and `.plugins.lock`. They are gitignored. Never commit them, and don't
-delete the sockets while a server is running.
+herdr writes its state next to the config: `*.log`, `*.sock`, `herdr.sock.agent`,
+`session.json`, `sessions/`, `session-snapshots/`, `release-notes.json` and `.plugins.lock`.
+They are gitignored. Never commit them, and don't delete the sockets while a server is running.
