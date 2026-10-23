@@ -4,6 +4,9 @@
 session.json
 release-notes.json
 .plugins.lock
+herdr.sock.agent
+session-snapshots/
+sessions/
 
 # DS_Store
 .DS_Store
