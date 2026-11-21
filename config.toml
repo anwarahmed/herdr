@@ -7,8 +7,12 @@ onboarding = false
 name = "terminal"
 
 [theme.custom]
-# The active tab is drawn as panel_bg text on an accent background, so panel_bg
-# has to be dark for it to read - same colors as status-left's "#[fg=black,bg=blue]"
+# panel_bg = "reset" leaves the tab and status bars on the terminal's own
+# background (see-through with Omarchy's glassy windows) instead of a solid fill.
+# Text on an accent background (the active tab, the mode indicator) normally
+# uses panel_bg; with panel_bg reset herdr uses surface_dim instead, so
+# surface_dim has to be dark for it to read - same colors as tmux status-left's
+# "#[fg=black,bg=blue]". surface_dim also colors the sidebar's separator line.
 panel_bg = "reset"
 surface_dim = "black"
 
